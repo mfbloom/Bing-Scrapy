@@ -9,7 +9,6 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
-
 class myspider(CrawlSpider):
     name = "myspider"
     allowed_domains = ["bing.com"]
